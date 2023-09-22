@@ -1,0 +1,946 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-09-08T10:35:58.517Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Продукт: Кроссовки Jordan 6 Rings | Категория: Обувь",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-09-08T10:39:56.704Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Продукт: Синяя куртка The North Face | Категория: Одежда",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-09-08T10:45:29.736Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Продукт: Кроссовки Jordan 6 Rings | Категория: Обувь",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0442\\u043e\\u0432\\u0430\\u0440\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-09-08T10:46:14.494Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Продукт: Кроссовки Jordan 6 Rings | Категория: Обувь",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0442\\u043e\\u0432\\u0430\\u0440\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-09-08T10:47:59.023Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Продукт: Черные туфли на платформе с 3 парами люверсов Dr Martens 1461 Bex | Категория: Обувь",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-09-08T10:57:35.631Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Продукт: Мужской пуховик Helly Hansen HH Urban Reversible Jacket | Категория: Одежда",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-09-08T11:02:46.267Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Продукт: Мужские кроссовки Nike Dunk High Retro | Категория: Обувь",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-09-09T08:36:40.237Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Продукт: Куртка Lacoste | Категория: Одежда",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-09-12T11:43:04.050Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Пользователь: valerii_2 | Электронная почта: valerii@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\", \"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-09-12T11:51:36.015Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Staff_only",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-09-12T11:51:45.928Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Пользователь: valerii_2 | Электронная почта: valerii@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-09-12T12:10:34.852Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Пользователь: valerii_2 | Электронная почта: valerii@gmail.com",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-09-12T16:26:58.345Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Продукт: Худи Anti Social Social Club | Категория: Одежда",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-09-12T16:28:12.571Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Продукт: Худи Anti Social Social Club | Категория: Premium",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u0430\\u0442\\u0435\\u0433\\u043e\\u0440\\u0438\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-09-12T16:30:28.868Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Продукт: Футболка Stussy | Категория: Premium",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-09-14T14:14:33.699Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Пользователь: gudkov | Электронная почта: gudkov@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-09-14T14:15:29.903Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Пользователь: eygott | Электронная почта: iliazhigalev@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-09-14T15:46:20.994Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Пользователь: gudkov | Электронная почта: gudkov@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-09-14T15:48:55.533Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Пользователь: gudkov | Электронная почта: a412b08@voenmeh.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-09-14T16:05:30.203Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Пользователь: gudko22 | Электронная почта: a412b08@voenmeh.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-09-14T16:05:30.206Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Пользователь: gudko2 | Электронная почта: vaaalerii@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-09-14T16:05:30.209Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Пользователь: gudkov | Электронная почта: a412b08@voenmeh.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-09-14T16:05:30.212Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Пользователь: valerii_2 | Электронная почта: valerii@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-09-14T16:33:04.101Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "Пользователь: roote | Электронная почта: iliazhigalev@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-09-14T16:33:04.105Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "Пользователь: root | Электронная почта: iliazhigalev@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-09-14T16:33:04.108Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Пользователь: mani | Электронная почта: a412b08@voenmeh.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-09-14T19:04:10.998Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Пользователь: rootee | Электронная почта: iliazhigalev@yandex.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add product category",
+      "content_type": 6,
+      "codename": "add_productcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change product category",
+      "content_type": 6,
+      "codename": "change_productcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete product category",
+      "content_type": 6,
+      "codename": "delete_productcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view product category",
+      "content_type": 6,
+      "codename": "view_productcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add product",
+      "content_type": 7,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change product",
+      "content_type": 7,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete product",
+      "content_type": 7,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view product",
+      "content_type": 7,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 8,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 8,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 8,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 8,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add basket",
+      "content_type": 9,
+      "codename": "add_basket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change basket",
+      "content_type": 9,
+      "codename": "change_basket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete basket",
+      "content_type": 9,
+      "codename": "delete_basket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view basket",
+      "content_type": 9,
+      "codename": "view_basket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add email verification",
+      "content_type": 10,
+      "codename": "add_emailverification"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change email verification",
+      "content_type": 10,
+      "codename": "change_emailverification"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete email verification",
+      "content_type": 10,
+      "codename": "delete_emailverification"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view email verification",
+      "content_type": 10,
+      "codename": "view_emailverification"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Staff_only",
+      "permissions": [
+        21,
+        22
+      ]
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "a1f4z9bbkn8a2rf9qkrfc8uvgemi444r",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlm78ScOJT1nsHb9wQFkS3FSIe4OkVJA-2bmvYSnbS1-62nxcxRngVacfkem8Eh1J_FO9dZkaHVdZpa7Ig_a5bXF9Lwc7t9BoV6-NQR05HQiBOsmbfIEmDUQDjA6ZmUUmMBOIZuobRpZKRWYLQyGEmYj3h_kTTdX:1qgrfw:X53VQPIIsptXsvgzwI_Am6zjWcz0UAByXepiz-7KMbc",
+      "expire_date": "2023-09-28T19:06:52.432Z"
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Одежда",
+      "description": "Будет вся представленная одежда."
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 2,
+    "fields": {
+      "name": "Обувь",
+      "description": ""
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Аксессуары",
+      "description": ""
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 4,
+    "fields": {
+      "name": "Бренды",
+      "description": "Будут показываться все бренды представленые в магазине."
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 5,
+    "fields": {
+      "name": "Premium",
+      "description": ""
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "La Routine Bag",
+      "description": "Сумка имеет одно большое отделение внутри которого предусмотрено еще одно на молнии и 2 отдела для документов и карман спереди на молнии. Сама сумка сделана из кордуры ,а логотипы нанесены специальной пленкой.",
+      "price": "4500.00",
+      "quantity": 12,
+      "image": "products_images/27061457.jpg",
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "YUMMS FMM HOODIE in SAND",
+      "description": "Ткань: футер 3-х нитка 350гр\r\nЛекала: умеренный оверсайз\r\nПринт: пафф-принт\r\nРазмеры: S / M / L / XL / XXL",
+      "price": "5900.00",
+      "quantity": 7,
+      "image": "products_images/3__1_.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Кроссовки Jordan 6 Rings",
+      "description": "Jordan 6 Rings — повседневные высокие кроссовки для мужчин, вдохновленные богатым баскетбольным наследием бренда. Дизайн модели создан на основе 6 силуэтов кроссовок Jordan Brand, в которых легендарный Майкл Джордан становился чемпионом НБА.",
+      "price": "27999.00",
+      "quantity": 13,
+      "image": "products_images/RTLACS477401_20347514_5_v1.jpg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Синяя куртка The North Face",
+      "description": "Гладкая ткань. Водонепроницаемое покрытие. Легкий и теплый пуховый наполнитель.",
+      "price": "23750.00",
+      "quantity": 3,
+      "image": "products_images/Blue-jacket-The-North-Face_qtA6rir.png",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Черные туфли на платформе с 3 парами люверсов Dr Martens 1461 Bex",
+      "description": "Гладкий кожаный верх. Натуральный материал.",
+      "price": "13590.00",
+      "quantity": 3,
+      "image": "products_images/Black-Dr-Martens-shoes.png",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Мужской пуховик Helly Hansen HH Urban Reversible Jacket",
+      "description": "Материал:\r\n100% полиэстер, наполн: 100% полиэстер, подкл: 100% полиэстер",
+      "price": "17990.00",
+      "quantity": 12,
+      "image": "products_images/21473c64653c934d1912a4981743b946.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "name": "Мужские кроссовки Nike Dunk High Retro",
+      "description": "Арт. DJ6189-100\r\nЦвет: Summit White Pure Platinum",
+      "price": "21999.00",
+      "quantity": 5,
+      "image": "products_images/yq2tvuiaabbhbjmaga8uphny4pywtgdf.jpg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "name": "Куртка Lacoste",
+      "description": "100% полиэстер",
+      "price": "35600.00",
+      "quantity": 7,
+      "image": "products_images/BH842270V.02.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "name": "Худи Anti Social Social Club",
+      "description": "Черная толстовка с логотипом ASSC спереди и сзади.\r\n\r\nСвободного кроя.\r\n\r\n100% хлопок.",
+      "price": "5700.00",
+      "quantity": 13,
+      "image": "products_images/1-5158d8c3-6a04-4a75-8c75-0c789a43dfca-1024x1024.jpg",
+      "category": 5
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "name": "Футболка Stussy",
+      "description": "Состав: 100% хлопок,\r\nКоллекция: Весна-лето 2023",
+      "price": "6400.00",
+      "quantity": 4,
+      "image": "products_images/6721126855.jpg",
+      "category": 5
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$lKmwsdFeYGJnG3lm5wYNiA$i0X4XyrLo+alD/7JsixnMwckC5UgSzQJxwTkS1b+AOE=",
+      "last_login": "2023-09-14T19:03:56.517Z",
+      "is_superuser": true,
+      "username": "eygotti",
+      "first_name": "Илья",
+      "last_name": "Жигалев",
+      "email": "zhigalev.i@icloud.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-09-01T13:35:56.174Z",
+      "dob": "2023-09-30",
+      "gender": "Мужской",
+      "image": "user_images/pIMG_7100_pp.jpg",
+      "is_verirified_email": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 16,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$H6IErlpvQoalCuOyoGIvp0$Hif8Cvbz7TJ2sY0650m2VQCX2tXN7yGL3nUd+Ud1zPk=",
+      "last_login": "2023-09-14T19:06:52.424Z",
+      "is_superuser": false,
+      "username": "Gay",
+      "first_name": "Гай",
+      "last_name": "ричи",
+      "email": "iliazhigalev@yandex.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-09-14T19:05:10.760Z",
+      "dob": "2023-09-19",
+      "gender": "Мужской",
+      "image": "",
+      "is_verirified_email": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.emailverification",
+    "pk": 12,
+    "fields": {
+      "code": "f195425f-9b68-46af-807f-e4092b4a587d",
+      "user": 16,
+      "created": "2023-09-14T19:05:10.988Z",
+      "expiration": "2023-09-15T19:05:10.988Z"
+    }
+  }
+]

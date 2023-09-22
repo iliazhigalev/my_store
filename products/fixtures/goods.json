@@ -1,0 +1,122 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "La Routine Bag",
+      "description": "Сумка имеет одно большое отделение внутри которого предусмотрено еще одно на молнии и 2 отдела для документов и карман спереди на молнии. Сама сумка сделана из кордуры ,а логотипы нанесены специальной пленкой.",
+      "price": "4500.00",
+      "quantity": 12,
+      "image": "products_images/27061457.jpg",
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "YUMMS FMM HOODIE in SAND",
+      "description": "Ткань: футер 3-х нитка 350гр\r\nЛекала: умеренный оверсайз\r\nПринт: пафф-принт\r\nРазмеры: S / M / L / XL / XXL",
+      "price": "5900.00",
+      "quantity": 7,
+      "image": "products_images/3__1_.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Кроссовки Jordan 6 Rings",
+      "description": "Jordan 6 Rings — повседневные высокие кроссовки для мужчин, вдохновленные богатым баскетбольным наследием бренда. Дизайн модели создан на основе 6 силуэтов кроссовок Jordan Brand, в которых легендарный Майкл Джордан становился чемпионом НБА.",
+      "price": "27999.00",
+      "quantity": 13,
+      "image": "products_images/RTLACS477401_20347514_5_v1.jpg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Синяя куртка The North Face",
+      "description": "Гладкая ткань. Водонепроницаемое покрытие. Легкий и теплый пуховый наполнитель.",
+      "price": "23750.00",
+      "quantity": 3,
+      "image": "products_images/Blue-jacket-The-North-Face_qtA6rir.png",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Черные туфли на платформе с 3 парами люверсов Dr Martens 1461 Bex",
+      "description": "Гладкий кожаный верх. Натуральный материал.",
+      "price": "13590.00",
+      "quantity": 3,
+      "image": "products_images/Black-Dr-Martens-shoes.png",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Мужской пуховик Helly Hansen HH Urban Reversible Jacket",
+      "description": "Материал:\r\n100% полиэстер, наполн: 100% полиэстер, подкл: 100% полиэстер",
+      "price": "17990.00",
+      "quantity": 12,
+      "image": "products_images/21473c64653c934d1912a4981743b946.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "name": "Мужские кроссовки Nike Dunk High Retro",
+      "description": "Арт. DJ6189-100\r\nЦвет: Summit White Pure Platinum",
+      "price": "21999.00",
+      "quantity": 5,
+      "image": "products_images/yq2tvuiaabbhbjmaga8uphny4pywtgdf.jpg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "name": "Куртка Lacoste",
+      "description": "100% полиэстер",
+      "price": "35600.00",
+      "quantity": 7,
+      "image": "products_images/BH842270V.02.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "name": "Худи Anti Social Social Club",
+      "description": "Черная толстовка с логотипом ASSC спереди и сзади.\r\n\r\nСвободного кроя.\r\n\r\n100% хлопок.",
+      "price": "5700.00",
+      "quantity": 13,
+      "image": "products_images/1-5158d8c3-6a04-4a75-8c75-0c789a43dfca-1024x1024.jpg",
+      "category": 5
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "name": "Футболка Stussy",
+      "description": "Состав: 100% хлопок,\r\nКоллекция: Весна-лето 2023",
+      "price": "6400.00",
+      "quantity": 4,
+      "image": "products_images/6721126855.jpg",
+      "category": 5
+    }
+  }
+]
