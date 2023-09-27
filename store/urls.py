@@ -27,6 +27,7 @@ urlpatterns = [
     path('products/', include('products.my_urls')),
     path('users/', include('users.urls')),
     path('accounts/', include('allauth.urls')),
+    path('orders/', include('orders.urls')),
 ]
 
 handler404 = page_not_found  # будет вызываться всякий раз при возникновении ошибки 404

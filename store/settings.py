@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'products.apps.ProductsConfig',
     'django_dump_load_utf8',
     'users.apps.UsersConfig',
+    'orders.apps.OrdersConfig',
 
     'allauth',
     'allauth.account',
@@ -53,7 +54,9 @@ INSTALLED_APPS = [
 
     'allauth.socialaccount.providers.github',
     'debug_toolbar',
-    'decouple'
+    'decouple',
+    'django.contrib.humanize',
+
 ]
 
 MIDDLEWARE = [
@@ -158,12 +161,12 @@ LOGOUT_REDIRECT_URL = '/'
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER = 'nzhigalev2000@gmail.com '
-# EMAIL_HOST_PASSWORD = 'wtoh dens hqdr rvnb'
-# EMAIL_USE_TLS = True
-# EMAIL_USE_SSL = False
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'nzhigalev2000@gmail.com '
+EMAIL_HOST_PASSWORD = 'wtoh dens hqdr rvnb'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
 
 # OAuth
 AUTHENTICATION_BACKENDS = [
@@ -184,3 +187,4 @@ SOCIALACCOUNT_PROVIDERS = {
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
+

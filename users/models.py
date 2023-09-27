@@ -8,7 +8,7 @@ from django.utils.timezone import now
 
 class User(AbstractUser):
     dob = models.DateField(max_length=8, null=True, blank=True)  # Дата рождения
-    gender = models.CharField(max_length=15)  # True for male and False for female
+    gender = models.CharField(max_length=15)
     image = models.ImageField(upload_to='user_images', null=True, blank=True)
     is_verirified_email = models.BooleanField(default=False)  # подтвердил ли пользователь почту
 
