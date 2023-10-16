@@ -28,7 +28,8 @@ class ProductsListView(TitleMixin, ListView):
         category_id = self.kwargs.get('category_id')  # берём id категории
         return queryset.filter(category_id=category_id) if category_id else queryset
 
-class ProductDetailView(TitleMixin,DetailView):
+
+class ProductDetailView(TitleMixin, DetailView):
     model = Product
     template_name = 'products/product.html'
     title = 'zhigalev_store '
@@ -37,24 +38,15 @@ class ProductDetailView(TitleMixin,DetailView):
 
 @login_required
 def add_basket(request, product_id: int):
-    product = Product.objects.get(id=product_id)
-    baskets_items = Basket.objects.filter(user=request.user,
-                                          product=product).first()  # беру корзину пользователя с определёным продуктом
-
-    if not baskets_items:
-        Basket.objects.create(user=request.user, product=product, quantity=1)
-    else:
-        baskets_items.quantity += 1
-        baskets_items.save()
-
-    return HttpResponseRedirect(request.META.get('HTTP_REFERER'))  # верну ту страницу на которой находится пользователь
+    Basket.create_or_update(product_id, request.user)
+    return HttpResponseRedirect(request.META.get('HTTP_REFERER'))  # I will return the page on which the user is located
 
 
 @login_required
 def basket_remove(request, basket_id: int):
     basket_id = Basket.objects.get(id=basket_id)
     basket_id.delete()
-    return HttpResponseRedirect(request.META.get('HTTP_REFERER'))  # верну ту страницу на которой находится пользователь
+    return HttpResponseRedirect(request.META.get('HTTP_REFERER'))  # I will return the page on which the user is located
 
 
 def page_not_found(request, exception):

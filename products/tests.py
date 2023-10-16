@@ -1,10 +1,6 @@
 from http import HTTPStatus
-
 from django.test import TestCase
 from django.urls import reverse
-
-from store.wsgi import *
-
 from .models import Product, ProductCategory
 
 
@@ -15,7 +11,7 @@ class IndexViewTestCase(TestCase):
         response = self.client.get(path)
 
         self.assertEqual(response.status_code, HTTPStatus.OK)
-        self.assertEqual(response.context_data['title'], "zhigalev_store - Главная")
+        self.assertEqual(response.context_data['title'], 'zhigalev_store - Главная')
         self.assertEqual(response.template_name, ['products/index.html'])
 
 
@@ -33,7 +29,7 @@ class ProductsListViewTestCase(TestCase):
         self.assertEqual(list(response.context_data['object_list']), list(self.products))
 
     def test_list_with_category(self):
-        category=ProductCategory.objects.first()
+        category = ProductCategory.objects.first()
         path = reverse('products:category', kwargs={'category_id': category.id})
         response = self.client.get(path)
 
@@ -42,16 +38,7 @@ class ProductsListViewTestCase(TestCase):
             list(response.context_data['object_list']), list(self.products.filter(category=category.id))
         )
 
-    def _common_tests(self,response):
+    def _common_tests(self, response):
         self.assertEqual(response.template_name[0], 'products/products.html')
         self.assertEqual(response.context_data['title'], 'zhigalev_store - Каталог')
         self.assertEqual(response.status_code, HTTPStatus.OK)
-
-
-
-
-
-
-
-
-

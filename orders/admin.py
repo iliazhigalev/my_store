@@ -1,10 +1,11 @@
 from django.contrib import admin
-
 from orders.models import Order
 
 
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
+    """ A class with parameters for the admin panel """
+
     list_display = ('__str__', 'status')
     fields = (
         'id', 'created',

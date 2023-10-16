@@ -1,10 +1,10 @@
-#Здесь хранится миксик
-
+# The mixin is stored here
+from typing import Dict
 
 class TitleMixin:
-    title=None
+    title = None
 
-    def get_context_data(self,**kwargs):
-        context=super(TitleMixin, self).get_context_data(**kwargs)
-        context['title']=self.title
+    def get_context_data(self, **kwargs)->Dict:
+        context = super(TitleMixin, self).get_context_data(**kwargs)
+        context['title'] = self.title
         return context

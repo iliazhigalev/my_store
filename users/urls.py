@@ -5,7 +5,7 @@ from django.urls import path
 from .views import (EmailVerificationView, UserLoginView, UserProfileView,
                     UserRegistrationView)
 
-app_name = 'users'  # название приложения
+app_name = 'users'
 
 urlpatterns = [
     path('login/', UserLoginView.as_view(), name='login'),

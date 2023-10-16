@@ -2,11 +2,12 @@
 My project, stack:
 * Python
 * Django
+* DRF
 * PostgreSQL
 * HTML 
 
 in the future I plan to connect:
-* DRF
+
 * Redis
 * Celery
 
@@ -30,6 +31,6 @@ python -m pip install -r requirements.txt
 
 ```python
 ./manage.py migrate
+./manage.py loaddata <path_to_fixture_files>
 ./manage.py runserver 
 ```
-

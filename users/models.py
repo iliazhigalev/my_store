@@ -7,29 +7,23 @@ from django.utils.timezone import now
 
 
 class User(AbstractUser):
-    dob = models.DateField(max_length=8, null=True, blank=True)  # Дата рождения
+    dob = models.DateField(max_length=8, null=True, blank=True)  # Date of birth
     gender = models.CharField(max_length=15)
     image = models.ImageField(upload_to='user_images', null=True, blank=True)
-    is_verirified_email = models.BooleanField(default=False)  # подтвердил ли пользователь почту
+    is_verirified_email = models.BooleanField(default=False)  # Has the user confirmed the email
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'Пользователь: {self.username} | Электронная почта: {self.email}'
 
     class Meta:
-        verbose_name_plural = 'Пользователи'  # название в админ панели
+        verbose_name_plural = 'Пользователи'
 
 
 class EmailVerification(models.Model):
-    class Meta:
-        verbose_name_plural = 'Хранение почты'  # название в админ панели
-
-    code = models.UUIDField(unique=True, editable=False)  #
+    code = models.UUIDField(unique=True, editable=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     created = models.DateTimeField(auto_now_add=True)
-    expiration = models.DateTimeField()  # срок действия данной ссылки
-
-    def __str__(self):
-        return f'EmailVerification объект для пользователя : {self.user.username} '
+    expiration = models.DateTimeField()  # The validity period of this link
 
     def send_verification(self):
         link = reverse('users:email_verif', kwargs={'email': self.user.email, 'code': self.code})
@@ -47,5 +41,11 @@ class EmailVerification(models.Model):
             fail_silently=False,
         )
 
-    def is_expired(self):
+    def is_expired(self) -> bool:
         return now() >= self.expiration
+
+    def __str__(self) -> str:
+        return f'EmailVerification объект для пользователя : {self.user.username} '
+
+    class Meta:
+        verbose_name_plural = 'Хранение почты'  # Name in the admin panel

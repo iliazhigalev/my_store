@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
-from django.urls import include, path
+from django.urls import include, path, re_path
 
 from products import views
 from products.views import page_not_found
@@ -28,9 +28,12 @@ urlpatterns = [
     path('users/', include('users.urls')),
     path('accounts/', include('allauth.urls')),
     path('orders/', include('orders.urls')),
+    path('api/', include('api.urls')),
+    path('api/v1/auth/', include('djoser.urls')),
+    re_path(r'^auth/', include('djoser.urls.authtoken')),
 ]
 
-handler404 = page_not_found  # будет вызываться всякий раз при возникновении ошибки 404
+handler404 = page_not_found  # will be called whenever a 404 error occurs
 
 if settings.DEBUG:
     import debug_toolbar
